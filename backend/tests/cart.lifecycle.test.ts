@@ -17,7 +17,7 @@ describe("Cart endpoints", () => {
   });
  
   it("POST /cart adds an item and returns subtotal", async () => {
-    // First, get a cart id
+    // get a cart id
     const g = await request(app).get("/cart");
     const cartId = g.headers["x-cart-id"] as string;
  
@@ -34,7 +34,7 @@ describe("Cart endpoints", () => {
   });
  
   it("PATCH /cart replaces quantities", async () => {
-    // Create cart and add two items
+    // create cart and add two items
     const g = await request(app).get("/cart");
     const cartId = g.headers["x-cart-id"] as string;
  
