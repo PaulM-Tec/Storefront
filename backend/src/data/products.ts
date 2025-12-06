@@ -9,7 +9,6 @@ export type Product = {
   stock: number;
 };
 
-// TODO: Expand to ~8 products; keep images as placeholder URLs.
 export const products: Product[] = [
   {
     id: 'p-001',
