@@ -1,5 +1,5 @@
 
-# ABC Storefront (Full-Stack Technical Challenge)
+# Storefront
 
 A simple storefront with a lightweight backend. Built quickly with clean TypeScript, sensible dependencies, and clear structure.
 
