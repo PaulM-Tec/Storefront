@@ -1,0 +1,8 @@
+
+.card { border: 1px solid #e5e7eb; border-radius: 12px; overflow: hidden; display: flex; flex-direction: column; }
+.img { width: 100%; aspect-ratio: 4/3; object-fit: cover; }
+.body { padding: 12px; display: flex; gap: 8px; flex-direction: column; }
+.row { display: flex; align-items: center; justify-content: space-between; }
+.price { font-weight: 600; }
+.btn { padding: 8px 12px; border-radius: 8px; border: 1px solid #111827; background: #111827; color: white; }
+.desc { color: #6b7280; font-size: 0.9rem; }

@@ -1,0 +1,8 @@
+{
+  "name": "abc-storefront",
+  "private": true,
+  "scripts": {
+    "dev:api": "pnpm --filter storefront-backend dev || (cd backend && npm run dev)",
+    "dev:web": "pnpm --filter storefront-frontend dev || (cd frontend && npm run dev)"
+  }
+}
