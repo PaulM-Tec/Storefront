@@ -45,12 +45,6 @@ npm run dev
 - `backend`: `dev`, `build`, `start`, `test` (Jest + Supertest)
 - `frontend`: `dev`, `build`, `preview`
 
-## Submission Checklist
-1. Push code to the repo.
-2. Open a final PR with this README and setup steps.
-3. Summarize decisions, tradeoffs, and future improvements in the PR description.
-4. Notify reviewers.
-
 ## Future Enhancements (nice-to-haves)
 - Filters (category, price range), search
 - Toast feedback on add-to-cart
