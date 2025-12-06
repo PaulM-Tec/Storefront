@@ -12,11 +12,11 @@ export type Product = {
 export const products: Product[] = [
   {
     id: 'p-001',
-    name: 'Wireless Headphones',
-    description: 'Comfortable over-ear with ANC',
-    price: 1499.0,
+    name: 'MacBook Air',
+    description: 'Thin, lightweight design, silent fanless operation, long battery life',
+    price: 11499.0,
     imageUrl: 'https://picsum.photos/id/180/600/400',
-    category: 'Audio',
+    category: 'Laptop',
     stock: 16,
   },
   {
