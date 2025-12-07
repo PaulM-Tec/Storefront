@@ -1,4 +1,3 @@
-
 import { products } from "../data/products";
 
 export type CartItem = { productId: string; quantity: number };
