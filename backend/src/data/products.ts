@@ -15,7 +15,7 @@ export const products: Product[] = [
     name: 'Apple MacBook Air 13-inch',
     description: 'Thin, lightweight design, silent fanless operation, long battery life',
     price: 11499.0,
-    imageUrl: 'https://picsum.photos/id/180/600/400',
+    imageUrl: 'https://picsum.photos/id/8/5000/3333.jpg?hmac=OeG5ufhPYQBd6Rx1TAldAuF92lhCzAhKQKttGfawWuA',
     category: 'Laptop',
     stock: 5,
   },
