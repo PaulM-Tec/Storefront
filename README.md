@@ -1,53 +1,92 @@
-
-# Storefront
-
-A simple storefront with a lightweight backend. Built quickly with clean TypeScript, sensible dependencies, and clear structure.
-
-## Stack & Rationale
-- **Backend:** Express + TypeScript, `zod` for validation, in-memory cart keyed by `x-cart-id`/cookie.
-- **Frontend:** React + Vite + TypeScript, state with **Zustand** (tiny & explicit), React Router for routing, CSS Modules for light styling.
-
-## API
-Base URL: `http://localhost:4000`
-
-- `GET /products` → `Product[]`
-- `GET /products/:id` → `Product` | 404
-- `GET /cart` → returns current cart (creates one if missing)
-- `POST /cart` → add item `{ productId, quantity }` → returns full cart
-- `PATCH /cart` → replace quantities `{ items: [{ productId, quantity }] }` → returns cart
-
-Errors are structured as `{ error, message?, issues? }` with appropriate HTTP status.
-
-## Local Development
-```bash
-# Terminal 1 - backend
-cd backend
-npm install
-npm run dev
-
-# Terminal 2 - frontend
-cd frontend
-npm install
-npm run dev
-```
-- Frontend: http://localhost:5173
-- Backend: http://localhost:4000
-
-> CORS is configured to allow the Vite dev server and expose `x-cart-id`.
-
-## Decisions & Tradeoffs
-- Prices as `number` in Rands for speed; in production I’d use integer cents to avoid FP issues.
-- In-memory store keeps scope small. A real app would persist carts and validate stock atomically.
-- Added a non-required `GET /cart` for UX so the client can hydrate on load.
-- Avoided `@ts-ignore` by using Zod + types. If any appears, it will include a comment explaining why and a TODO to remove it.
-
-## Project Scripts
-- `backend`: `dev`, `build`, `start`, `test` (Jest + Supertest)
-- `frontend`: `dev`, `build`, `preview`
-
-## Future Enhancements (nice-to-haves)
-- Filters (category, price range), search
-- Toast feedback on add-to-cart
-- Basic CI (Node 18/20, install/build/test)
-- Minimal e2e smoke via Playwright
-```
+# 🛒 Storefront Application
+ 
+https://img.shields.io/github/last-commit/PaulM-Tec/Storefront
+https://img.shields.io/badge/language-TypeScript-blue
+https://img.shields.io/badge/frontend-React-blue
+https://img.shields.io/badge/backend-Express-green
+https://img.shields.io/badge/architecture-FullStack-orange
+ 
+---
+ 
+## 📌 Overview
+This project is a **full-stack e-commerce application** that simulates an online storefront.
+ 
+It demonstrates the integration of a modern frontend (React + TypeScript) with a backend API (Express), enabling users to browse products and manage a shopping cart.
+ 
+---
+ 
+## 🚀 Features
+ 
+- Browse product catalog
+- Add items to cart
+- Update cart quantities
+- In-memory data persistence
+- RESTful API backend
+- Input validation using Zod
+ 
+---
+ 
+## 🏗️ Architecture
+ 
+The system follows a **client-server architecture**:
+ 
+### 🔹 Frontend
+- React + TypeScript (Vite)
+- Component-based UI
+- State management for cart interactions
+ 
+### 🔹 Backend
+- Express.js API
+- REST endpoints for products and cart
+- Data validation and request handling
+ 
+---
+ 
+## 📂 Project Structure
+ 
+# 🛒 Storefront Application
+ 
+https://img.shields.io/github/last-commit/PaulM-Tec/Storefront
+https://img.shields.io/badge/language-TypeScript-blue
+https://img.shields.io/badge/frontend-React-blue
+https://img.shields.io/badge/backend-Express-green
+https://img.shields.io/badge/architecture-FullStack-orange
+ 
+---
+ 
+## 📌 Overview
+This project is a **full-stack e-commerce application** that simulates an online storefront.
+ 
+It demonstrates the integration of a modern frontend (React + TypeScript) with a backend API (Express), enabling users to browse products and manage a shopping cart.
+ 
+---
+ 
+## 🚀 Features
+ 
+- Browse product catalog
+- Add items to cart
+- Update cart quantities
+- In-memory data persistence
+- RESTful API backend
+- Input validation using Zod
+ 
+---
+ 
+## 🏗️ Architecture
+ 
+The system follows a **client-server architecture**:
+ 
+### 🔹 Frontend
+- React + TypeScript (Vite)
+- Component-based UI
+- State management for cart interactions
+ 
+### 🔹 Backend
+- Express.js API
+- REST endpoints for products and cart
+- Data validation and request handling
+ 
+---
+ 
+## 📂 Project Structure
+ 
