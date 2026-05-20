@@ -44,49 +44,58 @@ The system follows a **client-server architecture**:
  
 ## 📂 Project Structure
  
-# 🛒 Storefront Application
+---
  
-https://img.shields.io/github/last-commit/PaulM-Tec/Storefront
-https://img.shields.io/badge/language-TypeScript-blue
-https://img.shields.io/badge/frontend-React-blue
-https://img.shields.io/badge/backend-Express-green
-https://img.shields.io/badge/architecture-FullStack-orange
+## ⚙️ Technologies Used
+ 
+- **React** – Frontend framework
+- **TypeScript** – Type safety
+- **Express.js** – Backend API
+- **Zod** – Validation
+- **Vite** – Build tool
  
 ---
  
-## 📌 Overview
-This project is a **full-stack e-commerce application** that simulates an online storefront.
+## 💻 Code Highlights
  
-It demonstrates the integration of a modern frontend (React + TypeScript) with a backend API (Express), enabling users to browse products and manage a shopping cart.
- 
----
- 
-## 🚀 Features
- 
-- Browse product catalog
-- Add items to cart
-- Update cart quantities
-- In-memory data persistence
-- RESTful API backend
-- Input validation using Zod
+- Full-stack separation of concerns
+- API endpoint design using REST principles
+- State management for dynamic UI updates
+- Input validation and error handling
  
 ---
  
-## 🏗️ Architecture
+## 🎓 Key Learnings
  
-The system follows a **client-server architecture**:
- 
-### 🔹 Frontend
-- React + TypeScript (Vite)
-- Component-based UI
-- State management for cart interactions
- 
-### 🔹 Backend
-- Express.js API
-- REST endpoints for products and cart
-- Data validation and request handling
+- Designing full-stack architecture
+- Integrating frontend and backend systems
+- Managing state in React applications
+- Building scalable API endpoints
+- Structuring real-world web applications
  
 ---
  
-## 📂 Project Structure
+## 🌍 Why This Project Matters
  
+This project demonstrates the ability to:
+ 
+- Build and structure full-stack applications
+- Implement modern frontend frameworks
+- Develop backend APIs and integrations
+- Apply real-world software engineering principles
+ 
+---
+ 
+## 🚀 Future Improvements
+ 
+- Add database (PostgreSQL / MongoDB)
+- Implement authentication (JWT)
+- Add payment integration
+- Improve UI/UX design
+ 
+---
+ 
+## 👤 Author
+ 
+**Paul Munhamo**  
+BSc Honours in Information Technology (Software Engineering)
