@@ -1,10 +1,10 @@
 # 🛒 Storefront Application
  
-https://img.shields.io/github/last-commit/PaulM-Tec/Storefront
-https://img.shields.io/badge/language-TypeScript-blue
-https://img.shields.io/badge/frontend-React-blue
-https://img.shields.io/badge/backend-Express-green
-https://img.shields.io/badge/architecture-FullStack-orange
+![Last Commit](https://img.shields.io/github/last-commit/PaulM-Tec/Storefront)
+![Language](https://img.shields.io/badge/language-TypeScript-blue)
+![Frontend](https://img.shields.io/badge/frontend-React-blue)
+![Backend](https://img.shields.io/badge/backend-Express-green)
+![Architecture](https://img.shields.io/badge/architecture-FullStack-orange)
  
 ---
  
